@@ -1,3 +1,19 @@
 <form action='/team' method="POST">
+  <h12> Team </h2>
+  <label>Team Name </label> <input type="text" name="team[name]" /><br>
+  <label> Team Moto</label> <input type="text" name="team[moto]" />
 
+  <h2> Hero 1 </h2>
+  <label> Hero's name</label> <input type="text" name="team[hero][][name]"/><br>
+  <label> Hero's Power</label> <input type="text" name="team[hero][][power]" /><br>
+  <label> Hero's Biography</label> <input type="text" name="team[hero][][bio]" />
+
+  <h2> Hero 2 </h2>
+  <label> Hero's name</label> <input type="text" name="team[hero][][name]"/><br>
+  <label> Hero's Power</label> <input type="text" name="team[hero][][power]" /><br>
+  <label> Hero's Biography</label> <input type="text" name="team[hero][][bio]" />
+
+
+  <input type="submit" value = "click me" />
 </form>
+
